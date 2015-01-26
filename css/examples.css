@@ -100,14 +100,14 @@ section#titlechart #description ol {
 }
 
 
-section.demo * {
+/*section.demo * {
 	font-size: 13px;
 }
 section.demo {
 	font-size: 0;
 	text-align: center;
 	background-image: url("../img/example_bg_v.png");
-}
+}*/
 section.demo.fullheight {
 	min-height: 100%;
 }
@@ -697,7 +697,7 @@ a.viewsource:before {
 #parallax1, #parallax2, #parallax3 {
 	position: relative;
 	overflow: hidden;
-	height: 40vh;
+	height: 100vh;
 }
 #parallax1 > div, #parallax2 > div, #parallax3 > div {
 	position: relative;

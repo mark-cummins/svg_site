@@ -1,10 +1,9 @@
-$(document).ready(function(){
-    
-
+$(document).ready(function(){		
     
     parallax_init();
     draw_hr("#svg_hr");   
-    
+	draw_single_hr("#svg_hr_b", '#2182f2'); 
+	draw_single_hr("#svg_hr_c", '#de9100'); 
         
     svg_a_animate();
     svg_b_animate();
@@ -21,11 +20,14 @@ $(document).ready(function(){
         setTimeout(function () { draw_svg(snap_hr_path, 1000, 1, '#2182f2'); }, 0);
         setTimeout(function () { draw_svg(snap_hr_path_b, 1000, 1, '#de9100'); }, 100);
         setTimeout(function () { draw_svg(snap_hr_path_c, 1000, 1, '#cc0e48'); }, 200);
-        
-        setTimeout( function() { snap_hr_path.animate({stroke: '#cc0e48'}, 600, mina.easeinout); }, 2000);
-        //setTimeout( function() { snap_hr_path_b.animate({stroke: '#de9100'}, 600, mina.easeinout); }, 200);
-        setTimeout( function() { snap_hr_path_c.animate({stroke: '#2182f2'}, 600, mina.easeinout); }, 2000);
     }
+	
+	function draw_single_hr(hr_id, line_color){
+		var snap_hr = Snap(hr_id); 
+
+		var snap_hr_path = snap_hr.path("m 3,2," + $("#svg_hr").width() + ",0");
+		setTimeout(function () { draw_svg(snap_hr_path, 1000, 1, line_color); }, 0);
+	}
     
     function parallax_init(){
         

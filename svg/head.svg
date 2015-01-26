@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 100 100"
+   width="100%"
+   height="100%"
+   id="head_svg"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="head.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3841"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3841-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3841-4"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="62.909212"
+     inkscape:cy="46.040228"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     width="100px"
+     inkscape:window-width="1360"
+     inkscape:window-height="722"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3873"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.3622)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#b3b3b3;stroke-width:2.23426509;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;display:none"
+       id="path2985"
+       sodipodi:cx="49.750011"
+       sodipodi:cy="49.239834"
+       sodipodi:rx="49.750011"
+       sodipodi:ry="48.739861"
+       d="m 99.500023,49.239834 c 0,26.918282 -22.273839,48.73986 -49.750012,48.73986 C 22.273839,97.979694 0,76.158116 0,49.239834 0,22.321552 22.273839,0.4999733 49.750011,0.4999733 c 27.476173,0 49.750012,21.8215787 49.750012,48.7398607 z"
+       transform="matrix(0.97715736,0,0,0.99222798,1.5152288,954.13385)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.45331573px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Jenna Sue;-inkscape-font-specification:Limelight"
+       x="14.162852"
+       y="571.42535"
+       id="svg_my_name"
+       sodipodi:linespacing="125%"
+       transform="scale(0.56823822,1.7598253)"
+       inkscape:label="svg_my_name"><tspan
+         sodipodi:role="line"
+         id="tspan3831"
+         x="14.162852"
+         y="571.42535"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Limelight;-inkscape-font-specification:Limelight"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0"
+         dy="0">Mark Cummins</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.95925139999999942px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Limelight;-inkscape-font-specification:Limelight;font-stretch:normal;font-variant:normal"
+       x="35.722633"
+       y="604.35583"
+       id="svg_wd"
+       sodipodi:linespacing="125%"
+       transform="scale(0.5891142,1.6974637)"
+       inkscape:label="svg_wd"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         x="35.722633"
+         y="604.35583">WEB DEVELOPER</tspan></text>
+  </g>
+</svg>

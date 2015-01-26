@@ -9,12 +9,18 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="320"
+   width="75%"
    height="320"
    id="svg_b"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="pl_a.svg">
+   sodipodi:docname="pl_a.svg"
+	 viewBox="0 0 320.00001 249.99999"
+	 overflow="visible"
+	 enable-background="new 0 0 499.524 554.546"
+	 xml:space="preserve"
+	 inkscape:version="0.48.3.1 r9886"
+	 style="overflow:visible">
   <defs
      id="defs4282">
     <inkscape:path-effect
