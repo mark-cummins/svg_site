@@ -149,6 +149,10 @@ p{
 	color:#555;
 }
 
+h3,h4{
+	font-family: 'Raleway', sans-serif;
+}
+
 .hr{
 	width:100%;
 	border-bottom: 1px solid;
@@ -307,6 +311,47 @@ p{
     }
 }
 
+.portfolio-modal .close-modal:hover {
+	opacity: 0.3;
+}
+.portfolio-modal .close-modal {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 75px;
+	height: 75px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.portfolio-modal .close-modal .lr {
+	z-index: 1051;
+	width: 1px;
+	height: 75px;
+	margin-left: 35px;
+	background-color: #222;
+	transform: rotate(45deg);
+}
+.portfolio-modal .close-modal .lr .rl {
+	z-index: 1052;
+	width: 1px;
+	height: 75px;
+	background-color: #222;
+	transform: rotate(90deg);
+}
+.portfolio-modal .modal-content {
+	padding: 100px 0px;
+	min-height: 100%;
+	border: 0px none;
+	border-radius: 0px;
+	text-align: center;
+	background-clip: border-box;
+	box-shadow: none;
+}
+
+.img-centered {
+	margin: 0px auto;
+}
+
 #portfolio .portfolio-item {
 	right: 0;
 	margin: 0 0 15px;
@@ -317,6 +362,7 @@ p{
 	position: relative;
 	margin: 0 auto;
 	max-width: 400px;
+	border:1px solid #ccc;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -369,9 +415,9 @@ p{
 
 #portfolio .portfolio-item .portfolio-caption p {
 	margin: 0;
-	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
-	font-style: italic;
+/*	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-size: 13px;
+/*	font-style: italic;*/
 }
 
 #portfolio * {
@@ -384,3 +430,31 @@ p{
 	}
 }
 
+#os-svg, #svg_b, #svg_c{
+	max-width: 230px !important;
+}
+
+.navbar-default {
+	background-color: #2182f2;
+	border-bottom-width: 2px;
+	border-color: #cc0e48;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #fff;
+	background-color: transparent;
+	font-family: 'Lobster', cursive;
+/*	font-family: 'Raleway', sans-serif;*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #de9100;
+	background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Lobster', cursive;
+	color: #fff;
+}

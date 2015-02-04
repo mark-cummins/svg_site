@@ -15,11 +15,11 @@
         id: "my_path_c",
     });
     
-    $('#js_logo').fadeIn();
-    $('#html_logo').fadeIn();
-    $('#css_logo').fadeIn();             
+
+    $('#js_logo').show();
+	$('#html_logo').show();
+	$('#css_logo').show();             
         
-    setTimeout(function () {
         
         var circle_a = svg_c.circle(218,200,4);
         var circle_b = svg_c.circle(218,200,4);
@@ -35,13 +35,7 @@
         draw_svg(my_path_a, circle_a);
         draw_svg(my_path_b, circle_b);
         draw_svg(my_path_c, circle_c);   
-        
-        $('#html_logo').fadeOut();
-        
-        var i_css = svg_c.selectAll('#css_logo path');   
-        
-        i_css.animate({ transform: 't-925,600' }, 1000, mina.bounce );
-        
+                               
         var g = svg_c.group(my_path_a, my_path_b, my_path_c, circle_a, circle_b, circle_c, circle_d);
         g.animate({ transform: 'r1080,218,200' }, 3000, mina.bounce );
         
@@ -79,12 +73,11 @@
             setTimeout(function () {
                 $('#html_logo').fadeIn();
                 var i_html = svg_c.selectAll('#html_logo path, #html_logo polygon');   
-                i_html.animate({ transform: 's 1.8,-50,-100' }, 600, mina.easein );          
+                i_html.animate({ transform: 's 2,-700,1050' }, 1000, mina.bounce ); 
+				
             }, 800);
         }, 4200);
-        
-        
-    }, 2500);  
+
     
     
     

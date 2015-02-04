@@ -80,15 +80,12 @@ function svg_a_animate(){
                     $('#turn_off').hide().fadeIn();
                     var circle_d = os_svg.circle(160,108,1);
                     circle_d.attr({fill: "#999"});
-                    circle_d.animate({ transform: 's 16,160,108' }, 1000, mina.bounce );                     
+                    circle_d.animate({ transform: 's 16,160,108' }, 1000, mina.bounce );                  
                     var my_path = os_svg.path("m 160,86,0,20").attr({
                         id: "power_hand",
                     });
                     draw_svg(my_path, 1000, 3, "#ddd");
                     var i_power_hand = os_svg.select('#power_hand');
-                    console.log(i_power_hand);
-
-                    i_power_hand.animate({ transform: 'r1080,160,108' }, 2000, mina.elastic ); 
                     
                 }, 3000);
 
