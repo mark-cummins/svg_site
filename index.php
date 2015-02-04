@@ -38,14 +38,40 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->        
-        
+		<nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Mark Cummins</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Link</a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		
         <div id="content-wrapper">
             <div id="example-wrapper">
                 <div class="scrollContent">
                     
                     <section class="demo">
 <!--                        <div class="spacer s0"></div>-->
-                        <div id="page-down-arrow"><div id="down-arrow-icon"></div></div>
+<!--                        <div id="page-down-arrow"><div id="down-arrow-icon"></div></div>-->
 						<div class="responsive-circle">
 <!--							<img src="svg/head.svg" id="h_svg" alt="" class="head-svg">-->
 <!--							<object type="image/svg+xml" id="outer_head_svg" data="svg/head.svg">Your browser does not support SVG</object>-->
@@ -61,18 +87,19 @@
                         <div>
                             <div class="svg-container">  
                                                                 
-                                <div class="container">
-                                    <!-- Example row of columns -->
-                                    <div class="row">
+                                
                                         <br/>
                                         <br/>
                                         <div class="col-sm-12">
                                             <svg id="svg_hr" width="100%" height="20px"></svg>
                                         </div>
+								<div class="container">
+									
+									<!-- Example row of columns -->
+									<div class="row">	
+										<div class="clearfix"></div><br/><br/>	
 										
-										<div class="clearfix"></div>
-										
-										<div class="col-md-8">
+										<div class="col-sm-8">
 											<h2><i class="fa fa-code"></i> Programming Languages</h2>
 											<div class="hr"></div>
 											<p>Languages - PHP, Java, Python, ASP.Net, VB VB.Net, Visual Basic<br/>
@@ -81,7 +108,7 @@
 												SCM (Version Control) - Git, SVN
 											</p>
 										</div>
-										<div class="col-md-4 text-center">
+										<div class="col-sm-4 text-center">
                                             <?php echo file_get_contents('svg/pl_a.svg'); ?>
                                         </div>
 										<div class="clearfix"></div><br/>
@@ -90,7 +117,7 @@
 											<svg id="svg_hr_b" width="100%" height="20px"></svg>
 										</div>
 										
-										<div class="col-sm-12 col-md-8 col-md-push-4">
+										<div class="col-xs-12 col-sm-8 col-sm-push-4">
 											<h2><i class="fa fa-code"></i> Programming Languages</h2>
 											<div class="hr"></div>
 											<p> More Languages - Javascript (JQuery, JQuery UI &amp; Mobile, AJAX) <br/>
@@ -102,7 +129,7 @@
 
 											</p>
 										</div>      
-										<div class="col-sm-12 col-md-4 col-md-pull-8 text-center">
+										<div class="col-xs-12 col-sm-4 col-sm-pull-8 text-center">
 											<?php echo file_get_contents('svg/pl_b.svg'); ?>
 										</div>
 										                                  										
@@ -110,7 +137,7 @@
 										<div class="col-sm-12">
 											<svg id="svg_hr_c" width="100%" height="20px"></svg>
 										</div>
-										<div class="col-md-8">
+										<div class="col-sm-8">
 											<h2><i class="fa fa-laptop"></i>  
 												Operating Systems
 											</h2>
@@ -120,14 +147,94 @@
 												Mac OS
 											</p>
 										</div>
-										<div class="col-md-4 text-center">
+										<div class="col-sm-4 text-center">
 											<?php echo file_get_contents('svg/os.svg'); ?>
 										</div>
-										
+										<div class="clearfix"></div><br/><br/>
                                     </div>
                                 </div>
                             </div>
                         </div>
+						
+						<div style="position:relative;">							
+							<div id="page-down-arrow"><div id="down-arrow-icon"></div></div>		
+						<div id="parallax2">
+							<div style="background-image: url(img/header.jpg); background-size: cover;">                                
+						</div>
+						</div>
+						</div>
+						
+
+						<!-- Portfolio Grid Section -->
+						<section id="portfolio" class="bg-light-gray">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12 text-center">
+										<h2 class="section-heading">Portfolio</h2>
+										<h3 class="section-subheading text-muted">Web Development Portfolio.</h3><br/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3 col-sm-6 portfolio-item">
+										<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<i class="fa fa-plus fa-3x"></i>
+												</div>
+											</div>
+											<img src="img/portfolio/logo-studentsunion.png" class="img-responsive" alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>University of Limerick Students Union</h4>
+											<p class="text-muted">CMS Web Application</p>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 portfolio-item">
+										<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<i class="fa fa-plus fa-3x"></i>
+												</div>
+											</div>
+											<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>RosterChief</h4>
+											<p class="text-muted">Rostering Web Application</p>
+										</div>
+									</div>									
+									<div class="col-md-3 col-sm-6 portfolio-item">
+										<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<i class="fa fa-plus fa-3x"></i>
+												</div>
+											</div>
+											<img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>BlueChief Portal</h4>
+											<p class="text-muted">Project Management Application</p>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6 portfolio-item">
+										<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<i class="fa fa-plus fa-3x"></i>
+												</div>
+											</div>
+											<img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>John Sweeney Fitness</h4>
+											<p class="text-muted">CMS Website</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						
                         <br/>
                         <br/>
                         <br/>

@@ -1,15 +1,65 @@
+(function ($) {
+	$(document).ready(function(){
+
+		// hide .navbar first
+		$(".navbar").hide();
+
+		// fade in .navbar
+		$(function () {
+			$(window).scroll(function () {
+
+				// set distance user needs to scroll before we start fadeIn
+				if ($(this).scrollTop() > 100) {
+					$('.navbar').fadeIn();
+				} else {
+					$('.navbar').fadeOut();
+				}
+			});
+		});
+
+	});
+}(jQuery));
+
 $(document).ready(function(){		
     
     parallax_init();
-    draw_hr("#svg_hr");   
-	draw_single_hr("#svg_hr_b", '#2182f2'); 
-	draw_single_hr("#svg_hr_c", '#de9100'); 
-        
-    svg_a_animate();
-    svg_b_animate();
-    svg_c_animate(); 
-    
-    
+	
+	setTimeout(function(){draw_hr("#svg_hr");},1500);
+	
+	if($(window).width() > 768){
+		var svg_arr = [200, 300, 670, 1000];
+	}
+	if($(window).width() <= 768){
+		var svg_arr = [50, 455, 1150, 1650];
+	}
+	
+	$(function(){
+		var trig_a, trig_b, trig_c, trig_d = false;
+		
+		$(window).scroll(function() {
+			console.log($(this).scrollTop());
+
+			if ($(this).scrollTop() >= svg_arr[0] && !trig_a) {
+				trig_a = true;
+				
+			}
+			if ($(this).scrollTop() >= svg_arr[1] && !trig_b) {
+				trig_b = true;
+				draw_single_hr("#svg_hr_b", '#de9100'); 
+				svg_b_animate();
+			}
+			if ($(this).scrollTop() >= svg_arr[2] && !trig_c) {
+				trig_c = true;
+				draw_single_hr("#svg_hr_c", '#cc0e48'); 
+				svg_c_animate();
+			}
+			if ($(this).scrollTop() >= svg_arr[3] && !trig_d) {
+				trig_d = true;
+				svg_a_animate();
+			}
+		});
+	});
+	
     function draw_hr(hr_id){
         var snap_hr = Snap(hr_id); 
 
@@ -36,14 +86,13 @@ $(document).ready(function(){
 
         // build scenes
         new ScrollScene({triggerElement: "#parallax1"})
-        .setTween(TweenMax.from("#parallax1 > div", 1, {top: "-95%", ease: Linear.easeNone}))
+        .setTween(TweenMax.from("#parallax1 > div", 1, {top: "-80%", ease: Linear.easeNone}))
         .addTo(controller);
-        //.addIndicators({zindex: 1, suffix: "1"});
 
-        /*new ScrollScene({triggerElement: "#parallax2"})
-        .setTween(TweenMax.from("#parallax2 > div", 1, {top: "-80%", ease: Linear.easeNone}))
-        .addTo(controller)
-        .addIndicators({zindex: 1, suffix: "2"});
+        new ScrollScene({triggerElement: "#parallax2"})
+        .setTween(TweenMax.from("#parallax2 > div", 1, {top: "-95%", ease: Linear.easeNone}))
+        .addTo(controller);
+		/*
 
         new ScrollScene({triggerElement: "#parallax3"})
         .setTween(TweenMax.from("#parallax3 > div", 1, {top: "-80%", ease: Linear.easeNone}))
@@ -51,3 +100,5 @@ $(document).ready(function(){
         .addIndicators({zindex: 1, suffix: "3"});*/
     }
 });
+
+
