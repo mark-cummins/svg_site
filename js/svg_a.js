@@ -42,10 +42,10 @@ function svg_a_animate(){
 
     function os_animation(){
 
-        $('#apple').delay(800).fadeIn('slow');        
+        //$('#apple').delay(800).fadeIn('slow');        
         
         setTimeout(function () {
-            i_screen.animate({ transform: 'r180,160,125' }, 1000);
+			i_screen.animate({ transform: 'r180,160,125' }, 1000, mina.bounce);
             
             $('#apple').fadeOut('slow');
             $('.i-base').fadeOut('slow');
@@ -53,13 +53,13 @@ function svg_a_animate(){
         }, 2000);
 
         setTimeout(function () {
-            i_screen.animate({ transform: 'r90,140,125' }, 1000);
+			i_screen.animate({ transform: 'r90,140,125' }, 1000, mina.bounce);
             $('#linux').fadeOut('slow');
             $('#windows').delay(800).fadeIn('slow');
         }, 4000);
 
         setTimeout(function () {
-            i_screen.animate({ transform: 'r0,140,125' }, 1000);
+			i_screen.animate({ transform: 'r0,140,125' }, 1000, mina.elastic);
             
             var i_apple = os_svg.selectAll('#apple path');   
             var i_windows = os_svg.select('#windows');
@@ -84,7 +84,7 @@ function svg_a_animate(){
                     var my_path = os_svg.path("m 160,86,0,20").attr({
                         id: "power_hand",
                     });
-                    draw_svg(my_path, 1000, 3, "#ddd");
+					setTimeout(function () {draw_svg(my_path, 1000, 3, "#ddd");},300);
                     var i_power_hand = os_svg.select('#power_hand');
                     
                 }, 3000);

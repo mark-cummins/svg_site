@@ -91,7 +91,7 @@
                                         <br/>
                                         <br/>
                                         <div class="col-sm-12">
-                                            <svg id="svg_hr" width="100%" height="20px"></svg>
+											<svg id="svg_hr" width="100%" viewBox="0 0 100 4"></svg>
                                         </div>
 								<div class="container">
 									
@@ -114,7 +114,7 @@
 										<div class="clearfix"></div><br/>
 										
 										<div class="col-sm-12">
-											<svg id="svg_hr_b" width="100%" height="20px"></svg>
+											<svg id="svg_hr_b" width="100%" viewBox="0 0 100 2"></svg>
 										</div>
 										
 										<div class="col-xs-12 col-sm-8 col-sm-push-4">
@@ -135,7 +135,7 @@
 										                                  										
 										<div class="clearfix"></div><br/>	
 										<div class="col-sm-12">
-											<svg id="svg_hr_c" width="100%" height="20px"></svg>
+											<svg id="svg_hr_c" width="100%" viewBox="0 0 100 2"></svg>
 										</div>
 										<div class="col-sm-8">
 											<h2><i class="fa fa-laptop"></i>  
@@ -175,11 +175,15 @@
 									</div>
 								</div>
 								<div class="row">
+									<br/>
 									<div class="col-md-3 col-sm-6 portfolio-item">
 										<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 											<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
-													<i class="fa fa-plus fa-3x"></i>
+													<span class="fa-stack fa-lg">
+														<i class="fa fa-circle fa-stack-2x"></i>
+														<i class="fa fa-plus fa-stack-1x"></i>
+													</span>
 												</div>
 											</div>
 											<img src="img/portfolio/logo-studentsunion.png" class="img-responsive" alt="">
@@ -190,10 +194,13 @@
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 portfolio-item">
-										<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+										<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 											<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
-													<i class="fa fa-plus fa-3x"></i>
+													<span class="fa-stack fa-lg">
+														<i class="fa fa-circle fa-stack-2x"></i>
+														<i class="fa fa-plus fa-stack-1x"></i>
+													</span>
 												</div>
 											</div>
 											<img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
@@ -204,10 +211,13 @@
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6 portfolio-item">
-										<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+										<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
 											<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
-													<i class="fa fa-plus fa-3x"></i>
+													<span class="fa-stack fa-lg">
+														<i class="fa fa-circle fa-stack-2x"></i>
+														<i class="fa fa-plus fa-stack-1x"></i>
+													</span>
 												</div>
 											</div>
 											<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
@@ -218,10 +228,13 @@
 										</div>
 									</div>									
 									<div class="col-md-3 col-sm-6 portfolio-item">
-										<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+										<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
 											<div class="portfolio-hover">
 												<div class="portfolio-hover-content">
-													<i class="fa fa-plus fa-3x"></i>
+													<span class="fa-stack fa-lg">
+														<i class="fa fa-circle fa-stack-2x"></i>
+														<i class="fa fa-plus fa-stack-1x"></i>
+													</span>
 												</div>
 											</div>
 											<img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
@@ -232,43 +245,111 @@
 										</div>
 									</div>
 								</div>
+								<br/>
 							</div>
+								
 						</section>
+							
+							
+						<div style="position:relative;">							
+							<div id="page-down-arrow"><div id="down-arrow-icon"></div></div>		
+							<div id="parallax3">
+								<div style="background-image: url(img/paper.jpg); background-size: cover;">                                
+								</div>
+							</div>
+						</div>
 						
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+							<section id="portfolio" class="bg-light-gray">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-12 text-center">
+											<h2 class="section-heading">Contact</h2>
+											<h3 class="section-subheading text-muted">Web Development Portfolio.</h3><br/>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-6 portfolio-item">
+											<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+												<div class="portfolio-hover">
+													<div class="portfolio-hover-content">
+														<span class="fa-stack fa-lg">
+															<i class="fa fa-circle fa-stack-2x"></i>
+															<i class="fa fa-plus fa-stack-1x"></i>
+														</span>
+													</div>
+												</div>
+												<img src="img/portfolio/logo-studentsunion.png" class="img-responsive" alt="">
+											</a>
+											<div class="portfolio-caption">
+												<h4>UL Students Union</h4>
+												<small><p class="text-muted">CMS Web Application</p>
+											</div>
+										</div>
+											<div class="col-md-3 col-sm-6 portfolio-item">
+												<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+												<div class="portfolio-hover">
+													<div class="portfolio-hover-content">
+														<span class="fa-stack fa-lg">
+															<i class="fa fa-circle fa-stack-2x"></i>
+															<i class="fa fa-plus fa-stack-1x"></i>
+														</span>
+													</div>
+												</div>
+												<img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+											</a>
+											<div class="portfolio-caption">
+												<h4>BlueChief Portal</h4>
+												<p class="text-muted">Project Management Application</p>
+											</div>
+										</div>
+											<div class="col-md-3 col-sm-6 portfolio-item">
+												<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+													<div class="portfolio-hover">
+														<div class="portfolio-hover-content">
+															<span class="fa-stack fa-lg">
+																<i class="fa fa-circle fa-stack-2x"></i>
+																<i class="fa fa-plus fa-stack-1x"></i>
+															</span>
+														</div>
+													</div>
+													<img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+												</a>
+												<div class="portfolio-caption">
+													<h4>RosterChief</h4>
+													<p class="text-muted">Rostering Web Application</p>
+												</div>
+											</div>									
+											<div class="col-md-3 col-sm-6 portfolio-item">
+												<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+													<div class="portfolio-hover">
+														<div class="portfolio-hover-content">
+															<span class="fa-stack fa-lg">
+																<i class="fa fa-circle fa-stack-2x"></i>
+																<i class="fa fa-plus fa-stack-1x"></i>
+															</span>
+														</div>
+													</div>
+													<img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+												</a>
+												<div class="portfolio-caption">
+													<h4>John Sweeney Fitness</h4>
+													<p class="text-muted">CMS Website</p>
+												</div>
+											</div>
+									</div>
+								</div>
+							</section>
+
                         
 
-                    </section>
+                    </section><!--DEMO SECTION-->
                     
                     <div class="spacer s_viewport"></div>
                 </div>
             </div>
         </div>
-
+		</div>
+	
 		<!-- Portfolio Modal 1 -->
 		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-content">
@@ -283,16 +364,43 @@
 						<div class="col-lg-8 col-lg-offset-2">
 							<div class="modal-body">
 								<!-- Project Details Go Here -->
-								<h2>Project Name</h2>
-								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-								<img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
-								<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+								<h2>UL Students Union</h2>
+								<img class="img-responsive img-centered" src="img/portfolio/logo-studentsunion-plain.png" alt="">
+								<p class="item-intro text-muted">CMS Web Application</p>
+								<hr/>
+								<h4 class="item-intro text-muted">Features</h4>
+								
+									Photo gallery with user contributions.<br/>
+									Dedicated News, Events, and Activities section - “Wolves News Room”.<br/>
+									Listings - e.g. rooms, jobs, books. Can make new categories on the fly.<br/>
+									Information / Guides - pdfs/infographics/text describing how to do common things in UL/ULSU.<br/>
+									Public / Members Discussions Forum.<br/>
+									FAQ/Q&amp;A page where members can ask a question if not answered already.<br/>
+									Publications + Archives - for anything the Union produces & agendas/minutes.<br/>
+									Polling / Rating on homepage<br/>
+							
+								<h4 class="item-intro text-muted">Social Integration</h4>
+									- sharing links, and better publicity of UL Wolves social media accounts.<br/>
+									Academic + Welfare Help Assessment Forms - when complete, advise student where to go for help.<br/>
+
+
+								<h4 class="item-intro text-muted">Registration</h4>
+									Student creates new Wolves account by connecting their UL student mail account (Outlook/OAuth).<br/>
+
+								<h4 class="item-intro text-muted">Design Notes</h4>
+									Uses SSL security.<br/>										
+									Responsive (layout changes for phones, regular screens, big screens).<br/>
+									Heavily integrates Facebook &amp; Twitter for sharing / publicity.<br/>
+									Single login for students to access UL Wolves service.<br/>
+								<br/>
 								<p>
-									<strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+									<strong>Want to check it out?</strong>
+									<a href="http://www.ulwolves.ie/">ulwolves.ie</a>
+								</p>
 								<ul class="list-inline">
-									<li>Date: July 2014</li>
-									<li>Client: Round Icons</li>
-									<li>Category: Graphic Design</li>
+									<li>Date: Feb 2015</li>
+									<li>Status: Live</li>
+									<li>Client: University of Limerick</li>
 								</ul>
 								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
 							</div>
@@ -315,11 +423,29 @@
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2">
 							<div class="modal-body">
-								<h2>Project Heading</h2>
-								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-								<img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-								<p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-								<p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+								<h2>BlueChief Portal</h2>
+								<img class="img-responsive img-centered" src="img/portfolio/logo-portal-plain.png" alt="">
+								<p class="item-intro text-muted">Project Management Application</p>
+								<hr/>
+								<h4 class="item-intro text-muted">Features</h4>
+
+								Allows Clients to log in to<br/>
+								See draft / completed work<br/>
+								Download images we have created<br/>
+								View how-to guides<br/>
+								View analytics on their social media accounts and websites<br/>
+								Upload images/files to us<br/><br/>
+
+								Allows Admins to<br/>
+								View exactly what clients are getting<br/>
+								Keep track of files, projects &amp; deadlines.<br/><br/>
+								
+								<ul class="list-inline">
+									<li>Date: Oct 2014</li>
+									<li>Status: On Hold</li>
+									<li>Client: BlueChief Social</li>
+								</ul>
+								<br/>
 								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
 							</div>
 						</div>
@@ -337,16 +463,37 @@
 						</div>
 					</div>
 				</div>
-				<div class="container">
+				<div class="container">	
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2">
 							<div class="modal-body">
-								<!-- Project Details Go Here -->
-								<h2>Project Name</h2>
-								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-								<img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-								<p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-								<p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+								<h2>RosterChief</h2>
+								<img class="img-responsive img-centered" src="img/portfolio/logo-rosterchief-plain.png" alt="">
+								<p class="item-intro text-muted">Project Management Application</p>
+								<hr/>
+								<h4 class="item-intro text-muted">Features</h4>
+
+								RosterChief is an online subscription employee scheduling, <br/>
+								time keeping &amp; record keeping service built with ease of use, <br/>
+								efficiency &amp; accessibility as our priority.<br/><br/>
+								
+								RosterChief is used by employers through a browser and can be done anywhere <br/>
+								with Internet access. Scheduling is done effortlessly, reducing waste &amp; <br/>
+								increasing employee satisfaction. We have kept is really simple while offering <br/>
+								the best tools &amp; services available.<br/><br/>
+								
+								Employees have a wide range of ways to access their hours; <br/>
+								The Website, mobile website, mobile app, facebook app. <br/>
+								They will be notified when hours are added/changed on their phone, <br/>
+								facebook and/or email. Employees can schedule holidays, <br/>
+								request certain hours, request a swap and more.<br/><br/>
+
+								<ul class="list-inline">
+									<li>Date: March 2014</li>
+									<li>Status: On Hold</li>
+									<li>Client: BlueChief Social</li>
+								</ul>
+								<br/>
 								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
 							</div>
 						</div>
@@ -368,12 +515,31 @@
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2">
 							<div class="modal-body">
-								<!-- Project Details Go Here -->
-								<h2>Project Name</h2>
-								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-								<img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-								<p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-								<p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+								<h2>John Sweeney Fitness</h2>
+								<img class="img-responsive img-centered" src="img/portfolio/logo-jsf-plain.png" alt="">
+								<p class="item-intro text-muted">Wordpress WebSite</p>
+								<hr/>
+								<h4 class="item-intro text-muted">Features</h4>
+
+								WordPress &amp; Foundation Responsive Framework<br/>
+								Multiple Blogs and Feedback<br/>
+								Content Management System <br/>
+								Custom design &amp; Visuals<br/>
+								Google Analytics<br/><br/>
+								
+
+								<ul class="list-inline">
+									<li>Date: March 2014</li>
+									<li>Status: Live</li>
+									<li>Client: BlueChief Social</li>
+								</ul>
+								
+								<p>
+								<strong>Want to check it out?</strong>
+								<a href="http://johnsweeneyfitness.com/">johnsweeneyfitness.com</a><br/>
+								</p>
+								
+								<br/>
 								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
 							</div>
 						</div>

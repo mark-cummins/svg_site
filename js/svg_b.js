@@ -3,7 +3,7 @@
 
     var svg_b = Snap("#svg_b");            
 
-    $('#php_logo').fadeIn("slow");
+    //$('#php_logo').fadeIn("slow");
     var php_logo = svg_b.selectAll('#php_logo path');  
     var sql_logo = svg_b.selectAll('#sql_logo path');  
     var ci_logo = svg_b.selectAll('#ci_logo path');  

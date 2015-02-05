@@ -1,4 +1,8 @@
 (function ($) {
+	
+	$('#php_logo').show();
+	$('#apple').show();
+	
 	$(document).ready(function(){
 
 		// hide .navbar first
@@ -63,20 +67,20 @@ $(document).ready(function(){
     function draw_hr(hr_id){
         var snap_hr = Snap(hr_id); 
 
-        var snap_hr_path = snap_hr.path("m 3,2," + $("#svg_hr").width() + ",0");
-        var snap_hr_path_b = snap_hr.path("m 3,8," + $("#svg_hr").width() + ",0");
-        var snap_hr_path_c = snap_hr.path("m 3,14," + $("#svg_hr").width() + ",0");
+        var snap_hr_path = snap_hr.path("m 3,1,95,0");
+        var snap_hr_path_b = snap_hr.path("m 3,2,95,0");
+        var snap_hr_path_c = snap_hr.path("m 3,3,95,0");
 
-        setTimeout(function () { draw_svg(snap_hr_path, 1000, 1, '#2182f2'); }, 0);
-        setTimeout(function () { draw_svg(snap_hr_path_b, 1000, 1, '#de9100'); }, 100);
-        setTimeout(function () { draw_svg(snap_hr_path_c, 1000, 1, '#cc0e48'); }, 200);
+        setTimeout(function () { draw_svg(snap_hr_path, 1000, .15, '#2182f2'); }, 0);
+        setTimeout(function () { draw_svg(snap_hr_path_b, 1000, .15, '#de9100'); }, 100);
+        setTimeout(function () { draw_svg(snap_hr_path_c, 1000, .15, '#cc0e48'); }, 200);
     }
 	
 	function draw_single_hr(hr_id, line_color){
 		var snap_hr = Snap(hr_id); 
 
-		var snap_hr_path = snap_hr.path("m 3,2," + $("#svg_hr").width() + ",0");
-		setTimeout(function () { draw_svg(snap_hr_path, 1000, 1, line_color); }, 0);
+		var snap_hr_path = snap_hr.path("m 3,1,95,0");
+		setTimeout(function () { draw_svg(snap_hr_path, 1000, .15, line_color); }, 0);
 	}
     
     function parallax_init(){
@@ -92,6 +96,10 @@ $(document).ready(function(){
         new ScrollScene({triggerElement: "#parallax2"})
         .setTween(TweenMax.from("#parallax2 > div", 1, {top: "-95%", ease: Linear.easeNone}))
         .addTo(controller);
+		
+		new ScrollScene({triggerElement: "#parallax3"})
+		.setTween(TweenMax.from("#parallax3 > div", 1, {top: "-95%", ease: Linear.easeNone}))
+		.addTo(controller);
 		/*
 
         new ScrollScene({triggerElement: "#parallax3"})
